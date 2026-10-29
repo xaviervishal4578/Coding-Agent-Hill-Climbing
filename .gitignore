@@ -1,0 +1,16 @@
+# Virtual environments & Python cache
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment & credentials
+.env
+*.json.key
+service-account*.json
+
+# Evaluation run artifacts & temporary sandboxes
+runs/
+out/
+task_*/
+eval_base_*/
